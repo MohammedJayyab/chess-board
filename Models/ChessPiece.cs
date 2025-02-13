@@ -38,7 +38,7 @@ public class ChessPiece
         {
             string pieceCode = Type.ToString().ToLower();
             string colorCode = Color == PieceColor.White ? "w" : "b";
-            string imagePath = Path.Combine("Assets", "pieces-basic-svg", $"{pieceCode}-{colorCode}.svg");
+            string imagePath = Path.Combine("Assets", "pieces-images", $"{pieceCode}-{colorCode}.svg");
             
             var svgDocument = SvgDocument.Open<SvgDocument>(imagePath);
             if (svgDocument != null)
