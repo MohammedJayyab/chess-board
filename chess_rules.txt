@@ -1,0 +1,105 @@
+**Comprehensive Chess Rules and Constraints**  
+Chess is a strategic board game played between two players on an 8x8 grid. Below is a detailed breakdown of the rules, mechanics, and constraints:
+
+---
+
+### **1. Chessboard Setup**  
+- **Grid**: 8x8 squares, alternating light and dark colors.  
+- **Initial Piece Placement**:  
+  - **White Pieces** (Bottom Ranks):  
+    - **Rank 1 (Back Row)**: Rook (a1, h1), Knight (b1, g1), Bishop (c1, f1), Queen (d1), King (e1).  
+    - **Rank 2**: 8 Pawns (a2–h2).  
+  - **Black Pieces** (Top Ranks):  
+    - **Rank 8**: Rook (a8, h8), Knight (b8, g8), Bishop (c8, f8), Queen (d8), King (e8).  
+    - **Rank 7**: 8 Pawns (a7–h7).  
+  - **Queen Placement**: Each queen starts on a square matching its color (e.g., White Queen on d1, a light square).  
+
+---
+
+### **2. Objective**  
+- **Checkmate**: Trap the opponent’s king so it cannot escape capture.  
+- **Draw**: If neither player can achieve checkmate (see §6).  
+
+---
+
+### **3. Piece Movement**  
+1. **King**:  
+   - Moves 1 square in any direction.  
+   - Cannot move into check.  
+2. **Queen**: Moves any number of squares vertically, horizontally, or diagonally.  
+3. **Rook**: Moves straight (vertically/horizontally) any number of squares.  
+4. **Bishop**: Moves diagonally any number of squares.  
+5. **Knight**: Moves in an L-shape (2 squares in one direction + 1 square perpendicular). **Jumps over pieces**.  
+6. **Pawn**:  
+   - **Moves**: 1 square forward. On its first move, may advance 2 squares.  
+   - **Captures**: Diagonally forward 1 square.  
+   - **En Passant**: If a pawn moves 2 squares from its starting position, an adjacent enemy pawn can capture it as if it moved 1 square (only available on the next turn).  
+   - **Promotion**: Reaching the opponent’s back rank, a pawn is replaced by a queen, rook, bishop, or knight.  
+
+---
+
+### **4. Special Moves**  
+- **Castling**:  
+  - **Conditions**:  
+    - King and chosen rook have not moved.  
+    - No pieces between them.  
+    - King is not in check and does not pass through/into check.  
+  - **Execution**:  
+    - **Kingside (Short Castling)**: King moves 2 squares right; rook jumps to d1/d8.  
+    - **Queenside (Long Castling)**: King moves 2 squares left; rook jumps to c1/c8.  
+- **En Passant** (see §3.6).  
+- **Promotion** (see §3.6).  
+
+---
+
+### **5. Check, Checkmate, and Stalemate**  
+- **Check**: King is under immediate threat. The player must:  
+  - Move the king,  
+  - Block the threat, or  
+  - Capture the attacking piece.  
+- **Checkmate**: King is in check with no legal escape. The game ends; attacker wins.  
+- **Stalemate**: Player has no legal moves but is not in check. The game is a draw.  
+
+---
+
+### **6. Draw Conditions**  
+1. **Stalemate** (see §5).  
+2. **Threefold Repetition**: Same position occurs three times with the same player to move.  
+3. **Fifty-Move Rule**: 50 consecutive moves without a pawn move or capture.  
+4. **Insufficient Material**: Neither player can checkmate (e.g., king vs. king; king + bishop vs. king).  
+5. **Mutual Agreement**: Players agree to a draw.  
+
+---
+
+### **7. Tournament Rules & Constraints**  
+- **Touch-Move Rule**:  
+  - If a player touches a piece, they must move it (if legal).  
+  - If an opponent’s piece is touched, it must be captured (if possible).  
+  - Adjusting a piece requires announcing *“j’adoube”* (French for “I adjust”).  
+- **Time Controls**:  
+  - Players use a chess clock. After moving, press the clock to stop your timer.  
+  - **Time Formats**:  
+    - **Classical**: Long time per move (e.g., 90 minutes + 30-second increment).  
+    - **Blitz/Rapid**: Shorter time (e.g., 3+2, 10+0).  
+  - **Flag Fall**: If a player’s time expires, they lose unless the opponent lacks sufficient material to checkmate.  
+- **Illegal Moves**:  
+  - Consequences vary by tournament rules (e.g., forced correction, time penalty, or loss).  
+
+---
+
+### **8. Notation**  
+- **Algebraic Notation**: Each square is labeled by a letter (a–h) and number (1–8). Moves are recorded as:  
+  - **Piece Initial** (e.g., Nf3 = knight to f3; e5 = pawn to e5).  
+  - **Captures**: “x” (e.g., Bxf7).  
+  - **Check**: “+”; **Checkmate**: “#”.  
+
+---
+
+### **9. Etiquette & Sportsmanship**  
+- Shake hands before/after the game.  
+- Avoid distractions (e.g., excessive talking).  
+- Resign gracefully if defeat is inevitable.  
+
+---
+
+Chess combines strategy, tactics, and foresight. Mastery requires understanding these rules and practicing patterns, openings, and endgames.

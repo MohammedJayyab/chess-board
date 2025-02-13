@@ -52,4 +52,15 @@ public class ChessPiece
             Console.WriteLine($"Failed to load image: {ex.Message}");
         }
     }
+
+    public int Value => Type switch
+    {
+        PieceType.Pawn => 1,
+        PieceType.Knight => 3,
+        PieceType.Bishop => 3,
+        PieceType.Rook => 5,
+        PieceType.Queen => 9,
+        PieceType.King => 0,
+        _ => 0 // Default case for any unhandled values
+    };
 } 
